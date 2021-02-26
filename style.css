@@ -51,5 +51,27 @@ body {
 
 /* footer */ 
 	.page-footer {
+		background: hsla(284, 100%, 14%, 1);
 		padding: 5vh 2vh;
+	}
+	.footer-ul {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.footer-link:link {
+		display: block;
+
+		padding: 20px;
+		font-size: 1.5em;
+		text-decoration: none;
+		color: #fff;
+	}
+	.footer-link:visited {
+		color: #fff
 	}
