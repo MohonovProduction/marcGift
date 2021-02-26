@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+/* header */
+	.page-header {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		height: 100vh;
+		background-color: hsl(300, 50%, 40%);
+	}
+	.main-heading {
+		padding: 5vh 2vh;
+		margin: 0;
+		text-align: center;
+		font-size: 3em;
+		color: #fff;
+	}
+
+/* section */
+	.section:nth-child(2n) {
+		background-color: hsla(294, 100%, 29%, 1);
+	}
+	.section:nth-child(2n+1) {
+		background-color: hsla(284, 100%, 29%, 1);
+	}
+
+	.section {
+		padding: 5vh 2vh;
+		color: #fff;
+	}
+	.section-heading {
+		font-size: 2em;
+	}
+	.paragraph {
+		font-size: 1.5em;
+	}
+
+	.img {
+		width: 100%;
+	}
