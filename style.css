@@ -9,7 +9,14 @@ body {
 		align-items: center;
 
 		height: 100vh;
+
 		background-color: hsl(300, 50%, 40%);
+		background-image: url(https://www.supersadovnik.ru/binfiles/images/20200512/b4252f8a.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+
 	}
 	.main-heading {
 		padding: 5vh 2vh;
@@ -17,6 +24,7 @@ body {
 		text-align: center;
 		font-size: 3em;
 		color: #fff;
+		background-color: hsla(300, 50%, 40%, 0.7);
 	}
 
 /* section */
