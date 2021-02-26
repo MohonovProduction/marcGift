@@ -39,5 +39,17 @@ body {
 	}
 
 	.img {
-		width: 100%;
+		max-width: 100%;
+	}
+
+	.galary {
+		display: grid;
+		grid-template-columns: repeat(4, 90%);
+		grid-gap: 20px;
+		overflow-x: scroll;
+	}
+
+/* footer */ 
+	.page-footer {
+		padding: 5vh 2vh;
 	}
